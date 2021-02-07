@@ -1,0 +1,36 @@
+*{
+    background-color: #E6E3D4;
+}
+header{
+    position: relative;
+    width: 100%;
+    
+}
+.header{
+    margin-top: 20px;
+    height: 150px;
+    background-color: #2B2B2B;
+color:#E6E3D4;
+text-align: center;
+padding: 5px;
+font-size:8vw;
+
+}
+.resume{
+    max-width: 72%;
+    background-color:#2B2B2B ;
+    height:fit-content;
+    color:white;
+    float: left;
+    margin: 20px;
+}
+.aboutMe{
+    max-width:20%;
+    float: right;
+    height:auto;
+    margin: 20px;
+}
+.profilePic{
+    max-width:100%;
+    height:auto;
+}
