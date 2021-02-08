@@ -1,56 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Ariana's Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<head>
+  <title>Ariana's Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
   <style>
-      .header{
-        font-family: 'Righteous', cursive;
-      }
+    .header {
+      font-family: 'Righteous', cursive;
+    }
   </style>
-  <body>
-      <header>
-      <div class="header">Ariana's Portfolio
 
-      </div>
-    </header>
-    <section>
-        <div class="resume">
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-        </div>
-    </section>
-    <aside>
+<body>
+  <nav>
+    <ul class="nav nav-tabs justify-content-end" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+          aria-selected="true">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+          aria-selected="false">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+          aria-selected="false">Projects</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="header">
+      About Me
+    </div>
+  </header>
+  <section>
+    <div class="resume">
+
+      <div class="aboutImg">
+        <img class="profilePic" src="Assets/profile-pic.jpg">
         <div class="aboutMe">
-            <div>
-                <img class="profilePic" src="Assets\profile-pic.jpg" alt="profile picture">
-            </div>
-            <div class="gitHub">
-                <button>Git Hub Link</button>
-            </div>
-            
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
         </div>
-    </aside>
-      
-    <footer>
-        <p>Author: Hege Refsnes</p>
-        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-      </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+      </div>
+      <div class="resumeImg">
+        <iframe class="iResume" src="" frameBorder="0" scrolling="auto" height="100%" width="100%"></iframe>
+      </div>
+      <div class="projectImg hide">
+        <div class="quarterProject">
+          <img class="project1" src="Assets\Trip-Project.PNG">
+          <button><a href="https://arianaw15.github.io/Trip-Itinerary/" target="_blank">Itinerary Project</a></button>
+        </div>
+        <div class="hwProjects">
+        <img class="hw1" src="Assets\password-generator.PNG"><br>
+        <button><a href="https://arianaw15.github.io/Secure-Password/" target="_blank">Password Generator</a></button>
+        <img class="hw2" src="Assets\Weather-Channel.PNG"><br>
+        <button><a href="https://arianaw15.github.io/Weather-Channel/" target="_blank">Weather Channel</a></button>
+      </div>
+      </div>
+  </section>
+
+
+  <footer>
+    <div class="footer">
+      Email | <a href="mailto:arianaw15@gmail.com">arianaw15@gmail.com</a> <br>
+      Phone | (801)-808-6271
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./Assets/index.js"></script>
+</body>
+
 </html>

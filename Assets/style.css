@@ -1,6 +1,12 @@
 *{
     background-color: #E6E3D4;
 }
+.hide {
+    display: none;
+}
+nav{
+   background-color: #D37143; 
+}
 header{
     position: relative;
     width: 100%;
@@ -8,8 +14,8 @@ header{
 }
 .header{
     margin-top: 20px;
-    height: 150px;
-    background-color: #2B2B2B;
+    height: auto;
+    background-color: #D37143;
 color:#E6E3D4;
 text-align: center;
 padding: 5px;
@@ -17,20 +23,92 @@ font-size:8vw;
 
 }
 .resume{
-    max-width: 72%;
-    background-color:#2B2B2B ;
-    height:fit-content;
-    color:white;
+    max-width: 100%;
+    height:auto;
+    color:#E6E3D4;
     float: left;
     margin: 20px;
+    border-radius: 5px;
+    position: relative;
 }
 .aboutMe{
-    max-width:20%;
+    background-color: #8DA69E;
     float: right;
-    height:auto;
-    margin: 20px;
+    max-width:55%;
+    height: auto;
+    padding: 10px;
+    /* position: relative */
+}
+.resumeImg{
+    background-color: #8DA69E;
+    max-width:100%;
+    height: auto;
+}
+iframe{
+position: fixed;
+  top: 32%;
+  left: 10%;
+  bottom: 0;
+  right: 10%;
+  width: 80%;
+  height: 55%;
+  z-index: 1;
 }
 .profilePic{
+    max-width: 40%;
+    height:auto;
+    border-radius: 5px;
+    overflow: hidden;
+    float:left;
+    /* position: relative; */
+}
+.projectImg{
     max-width:100%;
     height:auto;
+}
+.quarterProject{
+    max-width: 55%;
+    height: auto;
+    float: left;
+}
+.project1{
+    max-width: 100%;
+    height: auto;
+}
+.hwProjects{
+    max-width: 40%;
+    height: auto;
+    float: right;
+}
+.hw1{
+    max-width: 100%;
+    height: auto;
+}
+.hw2{
+    max-width: 100%;
+    height: auto;
+}
+button{
+    background-color: #8DA69E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #E6E3D4;
+    border-radius: 5px;
+}
+
+button a:link{
+    color:white;
+    background-color: transparent;
+  text-decoration: none;
+}
+
+.footer{
+position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+  background-color:#D37143 ;
+  margin-bottom:20px;
+  color:#E6E3D4;
+  padding: 10px;
 }
