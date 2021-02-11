@@ -104,7 +104,7 @@ button a:link{
 
 .footer{
 position:fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   height: auto; 
   background-color:#D37143 ;
