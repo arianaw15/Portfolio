@@ -4,9 +4,9 @@
 .hide {
     display: none;
 }
-nav{
+/* nav{
    background-color: #D37143; 
-}
+} */
 header{
     position: relative;
     width: 100%;
@@ -100,6 +100,20 @@ button a:link{
     color:white;
     background-color: transparent;
   text-decoration: none;
+}
+
+.container{
+    background-color: #8DA69E;
+    color:#8DA69E;
+    border-color: #8DA69E;
+    float: left;
+    
+}
+.contactMe{
+    background-color: #8DA69E;
+    color:#8DA69E;
+    border-color: #8DA69E;
+    float: right;
 }
 
 .footer{
